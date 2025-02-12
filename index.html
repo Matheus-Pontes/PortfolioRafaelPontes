@@ -12,7 +12,7 @@
     <title>Rafael Pontes</title>
 </head>
 <body class="h-full bg-zinc-900">
-    <header class="w-full bg-zinc-800 px-12 py-6 flex items-center gap-8 justify-center flex-wrap sticky top-0 md:justify-between ">
+    <header class="w-full bg-zinc-800 px-28 py-6 flex items-center gap-8 justify-center flex-wrap sticky top-0 z-20 md:justify-between ">
         <div class="flex items-center gap-4">
             <img src="./assets/foto.png" alt="Foto do Rafael Pontes arredondada" class="w-10 h-10 rounded-full cover">
             <a href="#apresentacao">
@@ -27,40 +27,47 @@
     </header>
 
     <main class="h-full">
-        <section id="apresentacao" class="h-screen px-12 max-w-4xl mx-auto grid place-items-center">
-            <article class="flex flex-col items-center gap-11">
-                <figure class="w-full space-y-8">
-                    <img src="./assets/foto-principal.png" 
-                         class="mx-auto border border-2 border-white rounded-md shadow-[0_2px_4px_white]" alt="Foto principal Rafael pontes">
-                    <figcaption class="text-xl text-white text-center">Rafael Pontes | 18 Anos | Ensino Médio Completo(2024)</figcaption>
-                </figure>
-
-                <p class="text-zinc-400 text-md text-justify lg:text-lg lg:text-center">
-                    Sou uma pessoa curiosa e apaixonada por tecnologia. Adoro explorar o mundo da automação e transformar ideias em projetos funcionais, usando a incrível versatilidade do Arduino.  Aqui você vai encontrar os trabalhos que desenvolvi, cada um mostrando minha criatividade, dedicação e vontade de aprender.
-                    Sinta-se à vontade para explorar e descobrir o que sou capaz de criar! 🚀
-                </p>
+        <section id="apresentacao" class="h-screen px-12 max-w-6xl mx-auto grid place-items-center">
+            <article class="bg-zinc-950 py-5 px-11 rounded-[3rem] shadow-[0_4px_4px_#71717A40]">
+                <div class="flex items-center gap-8">
+                    
+                    <img src="./assets/main-photo.png" 
+                         class="w-96 rounded-[3rem] relative top-10 shadow-[0_4px_4px_#71717A40]" alt="Foto principal Rafael pontes">
+                    
+                    <div class="space-y-4">
+                        <h1 class="text-lg text-white font-bold uppercase">
+                            Rafael Pontes | 18 Anos
+                        </h1>
+                        <p class="text-zinc-400 text-sm text-left lg:text-lg">
+                            Sou uma pessoa curiosa e apaixonada por tecnologia.
+                            Adoro explorar o mundo da automação e transformar ideias em projetos funcionais, usando a incrível versatilidade do Arduino.
+                            Aqui você vai encontrar os trabalhos que desenvolvi, cada um mostrando minha criatividade, dedicação e vontade de aprender.
+                            Sinta-se à vontade para explorar e descobrir o que sou capaz de criar! 🚀
+                        </p>
+                    </div>
+                </div>
             </article>
         </section>
         <section id="habilidades" class="h-screen">
             <h1 class="uppercase font-bold text-white text-3xl max-w-7xl mx-auto px-4">Habilidades</h1>
 
             <div class="w-full mt-16 flex items-center justify-around flex-wrap lg:flex-nowrap">
-                <div class="w-full mt-16">
+                <div class="w-full mt-16 space-y-8">
                     <h2 class="text-center text-white font-semibold text-2xl bg-zinc-800 p-4">Softs Skills</h2>
-                    <ul class="p-4 text-center">
-                        <li class="text-zinc-400 text-xl">Controle emocional</li>
-                        <li class="text-zinc-400 text-xl">Proatividade</li>
-                        <li class="text-zinc-400 text-xl">Pensamento crítico</li>
-                        <li class="text-zinc-400 text-xl">Trabalho em equipe</li>
+                    <ul class="p-4 text-center space-y-2">
+                        <li class="text-zinc-400 text-xl transition hover:text-zinc-200">Controle emocional</li>
+                        <li class="text-zinc-400 text-xl transition hover:text-zinc-200">Proatividade</li>
+                        <li class="text-zinc-400 text-xl transition hover:text-zinc-200">Pensamento crítico</li>
+                        <li class="text-zinc-400 text-xl transition hover:text-zinc-200">Trabalho em equipe</li>
                     </ul>
                 </div>
-                <div class="w-full mt-16">
+                <div class="w-full mt-16 space-y-8">
                     <h2 class="text-center text-white font-semibold text-2xl bg-zinc-800 p-4">Hards Skills</h2>
-                    <ul class="p-4 text-center">
-                        <li class="text-zinc-400 text-xl">Microcontroladores(C/C++)</li>
-                        <li class="text-zinc-400 text-xl">Soldagem de componentes eletrônicos</li>
-                        <li class="text-zinc-400 text-xl">Pacote Office 365</li>
-                        <li class="text-zinc-400 text-xl">Modelagem 3D (Blender)</li>
+                    <ul class="p-4 text-center space-y-2">
+                        <li class="text-zinc-400 text-xl transition hover:text-zinc-200">Microcontroladores(C/C++)</li>
+                        <li class="text-zinc-400 text-xl transition hover:text-zinc-200">Soldagem de componentes eletrônicos</li>
+                        <li class="text-zinc-400 text-xl transition hover:text-zinc-200">Pacote Office 365</li>
+                        <li class="text-zinc-400 text-xl transition hover:text-zinc-200">Modelagem 3D (Blender)</li>
                     </ul>
                 </div>
             </div>
@@ -69,7 +76,7 @@
             <h1 class="uppercase font-bold text-white text-3xl max-w-7xl mx-auto px-4">Projetos</h1>
             <div class="w-full mt-16 py-12 px-4 bg-zinc-800 rounded-xl grid place-content-center space-y-24">
                 
-                <div class="flex items-center gap-12 flex-wrap justify-center max-w-2xl mx-auto lg:max-w-4xl lg:flex-nowrap">
+                <div class="flex items-center gap-12 flex-wrap justify-center max-w-2xl mx-auto lg:max-w-7xl lg:flex-nowrap">
                     <img src="./assets/labamba.png" alt="Foto projeto labamba"
                         class="border border-2 border-white rounded-lg shadow-[0_2px_8px_black]">
 
@@ -87,7 +94,7 @@
                     </div>
                 </div>
 
-                <div class="flex items-center gap-12 flex-wrap justify-center max-w-2xl mx-auto flex-col-reverse lg:flex-row lg:max-w-4xl lg:flex-nowrap">    
+                <div class="flex items-center gap-12 flex-wrap justify-center max-w-2xl mx-auto flex-col-reverse lg:flex-row lg:max-w-7xl lg:flex-nowrap">    
                     <div class="space-y-4">
                         <h2 class="uppercase underline text-white font-semibold text-lg text-center lg:text-right">LumioSense</h2>
                         <p class="text-zinc-400 text-justify lg:text-right">
@@ -106,7 +113,7 @@
                          class="border border-2 border-white rounded-lg shadow-[0_2px_8px_black]">
                 </div>
 
-                <div class="flex items-center gap-12 flex-wrap justify-center max-w-2xl mx-auto lg:max-w-4xl lg:flex-nowrap">
+                <div class="flex items-center gap-12 flex-wrap justify-center max-w-2xl mx-auto lg:max-w-7xl lg:flex-nowrap">
                     <img src="./assets/biodigestor.png" alt="Foto projeto [nome]" 
                          class="border border-2 border-white rounded-lg shadow-[0_2px_8px_black]">
 
